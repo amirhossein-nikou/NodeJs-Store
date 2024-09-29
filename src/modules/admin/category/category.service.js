@@ -2,8 +2,6 @@ const autoBind = require("auto-bind");
 const { categoryModel } = require("./categories.model");
 const createHttpError = require("http-errors");
 const { CategoryMessages } = require("../../../common/enums/message.enum");
-const { Types } = require("mongoose");
-
 class CategoryService {
     #model
     constructor() {
